@@ -1,0 +1,44 @@
+p {
+    color: orange;
+    width: 500px;
+    border: 1px solid blue;
+    font-weight: bold;
+  }
+
+  html {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: lightgray;
+  }
+
+  h1 {
+      text-align: center;
+      margin: 0;
+      padding: 20px 0;
+  }
+
+  body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 0 20px 20px 20px;
+    border: 5px solid blue;
+  }
+
+  img {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+    animation: animate-pop 2s linear;
+  }
+  
+  @keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
